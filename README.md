@@ -2,26 +2,26 @@
 A simple Flutter-based quiz application designed for an interactive and engaging user experience, where users answer a series of questions, track their correctness with tick or cross icons, and see their total score at the end.
 
 # Features
-- Interactive Quiz Flow:
+- Interactive Quiz Flow:<br>
 Users can dynamically select answers to questions.<br>
 Smooth transitions between questions.<br>
 Immediate results upon quiz completion.<br>
 The application updates its internal state in real-time to reflect the user's choice, which may affect the progress bar, scoring, or correctness indicators (tick or cross icons).
 
-- Progress Tracking:
+- Progress Tracking:<br>
 A progress bar visually indicates the user's completion status of the quiz using LinearProgressIndicator widget.<br>
 Real-time updates as questions are answered.<br>
 
-- Answer Tracking with Icons:
+- Answer Tracking with Icons: <br>
 Correct answers are marked with a tick icon.<br>
 Incorrect answers are marked with a cross icon.<br>
 Score icons provide clear feedback for every question attempt.<br>
 
-- Detailed Results:
-A results page shows the user's total score and performance analysis. <br>
+- Detailed Results: <br>
+A results page shows the user's total score and performance analysis with the choice to restart the quiz for a new attempt. <br>
 Users can review their answers and see which questions were answered correctly or incorrectly. <br>
 
-- Modern Flutter Design Patterns:
+- Modern Flutter Design Patterns: <br>
 Clean separation of logic into multiple files. <br>
 Well-organized project structure for maintainability and scalability. <br>
 
