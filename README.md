@@ -1,22 +1,43 @@
-# assignment1
+### Quiz Application
+A simple Flutter-based quiz application designed for an interactive and engaging user experience, where users answer a series of questions, track their correctness with tick or cross icons, and see their total score at the end.
 
-A new Flutter project.
+# Features
+- Interactive Quiz Flow:
+Users can dynamically select answers to questions.
+Smooth transitions between questions.
+Immediate results upon quiz completion.
 
-## Getting Started
+- Progress Tracking:
+A progress bar visually indicates the user's completion status of the quiz using LinearProgressIndicator widget.
+Real-time updates as questions are answered.
 
-This project is a starting point for a Flutter application.
+- Answer Tracking with Icons:
+Correct answers are marked with a tick icon.
+Incorrect answers are marked with a cross icon.
+Score icons provide clear feedback for every question attempt. 
 
-A few resources to get you started if this is your first Flutter project:
+- Detailed Results:
+A results page shows the user's total score and performance analysis.
+Users can review their answers and see which questions were answered correctly or incorrectly.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Modern Flutter Design Patterns:
+Clean separation of logic into multiple files.
+Well-organized project structure for maintainability and scalability.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# File Structure
+├── main.dart            // Entry point of the application.
+├── answer.dart          // Handles individual answer rendering.
+├── question.dart        // Manages question display logic.
+├── quiz.dart            // Combines questions and answers into a cohesive quiz flow.
+├── result.dart          // Displays the final results to the user.
 
+# How to Run
+- Ensure Flutter is installed on your system.
+- Clone this repository.
+- Navigate to the project directory.
+- Run the application using flutter run command. 
 
-### Screenshots
+## Screenshots
 
 - ![ss0.png](/ScreenShots/ss0.png)
 
